@@ -1,7 +1,7 @@
 version: '3.9'
 services:
-  service1:
+  test1:
     image: app:v1
     ports:
       - "80:80"
-    contianer_name: test
+    container_name: guvi
