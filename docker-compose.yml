@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  service1:
+    image: app:v1
+    ports:
+      - "80:80"
+    contianer_name: test
